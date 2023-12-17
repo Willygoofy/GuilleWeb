@@ -31,6 +31,11 @@
     display: table-cell;
     vertical-align: middle;
 }
+.imgIndex{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
 .StarWars{
     width: 33%;
     display: flex;
@@ -120,6 +125,20 @@
 div#StarWars{
     background: rgb(33, 33, 33);
 }
+.divIndex{    
+    margin-top: 1%; 
+    margin-bottom: 1%;  
+    margin-left: 8%;   
+    margin-right: 8%; 
+    background-position: center; 
+    height: 200px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.divIndex:hover{ 
+    opacity: 0.6;
+}
 .divLabel{
     margin-top: 20px;
     width: 100%;
@@ -133,6 +152,12 @@ h1{
     text-align: center;
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.5);
+}
+.h1-index{
+    font-size: 800%; 
+    font-family: 'Courier New', Courier, monospace; 
+    background: none; 
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px grey;
 }
 h1#contact{
     margin: 50px;
