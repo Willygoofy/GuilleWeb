@@ -124,6 +124,13 @@ h2{
     margin: top  5%;
     color: #FFF;
 }
+h3{
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+    margin-right: 25%;
+}
 h4{
     text-align: center;
     color: #FFF;
