@@ -95,6 +95,9 @@
     text-align: center;
     margin-bottom: 5%;
 }
+div#StarWars{
+    background: rgb(33, 33, 33);
+}
 .divLabel{
     margin-top: 20px;
     width: 100%;
@@ -144,7 +147,7 @@ form {
     display: flex;
 }
 body {
-    background-image: url("../images/Instagram1.jpg");
+    background-image: url("../images/_GGL0768.jpeg");
     color: black;
     background-repeat: no-repeat;
     background-size: cover; 
