@@ -15,6 +15,14 @@
     -ms-transition: opacity 500ms;
     transition: opacity 500ms;
 }
+.imgStarWars{    
+    background-color: black;
+    width: 40%;
+}
+.imgStarWars:hover{
+    background-color: black;
+    transform: scale(3);
+}
 .imgContact{
     height: 100px;
     width: 100px;
@@ -22,6 +30,11 @@
     filter: invert(100%);
     display: table-cell;
     vertical-align: middle;
+}
+.StarWars{
+    width: 33%;
+    display: flex;
+    text-align: center;
 }
 .p1{    
     padding-top: 20px;
@@ -118,6 +131,12 @@ h4{
 h4#StarWars{
     margin-left: 25%;
     margin-right: 25%;
+}
+.SW{    
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #FFF;
+    margin-left: 5%;
 }
 form {
     background: rgba(0, 0, 0, 0.50);
